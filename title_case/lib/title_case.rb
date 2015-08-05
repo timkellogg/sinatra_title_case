@@ -4,7 +4,7 @@
 
 class String
   define_method(:title_case) do
-    shorties = ["of", "the"]       # Declaring exceptions to capitalization
+    shorties = ["of", "and", "the"]       # Declaring exceptions to capitalization
     old_title = self.split()
 
     new_title = []                  # An empty array tp hold our new result
